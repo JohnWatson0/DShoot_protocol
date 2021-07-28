@@ -1,0 +1,18 @@
+Fre: 300KHz
+T1H:2.33us
+T0H:1.167us
+Data Length:16bits
+High -> Low
+
+T:3333ns
+
+#define ESC_BIT_0     		28
+#define ESC_BIT_1     		56
+#define MOTOR_BITLENGTH 		79
+prescaler				2+1
+
+dshot300初始化
+开机延时3000ms
+发送低油门0解锁电调	1.5s<
+最低转速			48
+最高转速			2048
